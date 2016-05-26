@@ -27,7 +27,7 @@ $app = new Illuminate\Foundation\Application;
 $env = $app->detectEnvironment(array(
 
 	'local' => array(gethostname()),
-	'prod' => array('atlas-server'),
+	'prod' => array('shekhar-HP-Notebook'),
 	'staged' => array('staged-server'),
 
 ));
